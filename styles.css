@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.dialog {
+    margin-bottom: 20px;
+}
+
+#tiktok-info {
+    text-align: center;
+}
+
+#tiktok-logo {
+    width: 100px;
+    height: auto;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.stats span {
+    margin: 0 10px;
+}
