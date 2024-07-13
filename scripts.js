@@ -20,7 +20,7 @@ function startFetchingData() {
     // 60秒毎にデータを取得して更新する
     intervalId = setInterval(() => {
         fetchTikTokData(url);
-    }, 100); // 60,000ミリ秒 = 60秒
+    }, 10000); // 60,000ミリ秒 = 60秒
 }
 
 async function fetchTikTokData(url) {
