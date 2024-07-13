@@ -10,7 +10,7 @@
     <div class="dialog">
         <label for="tiktok-url">TikTokのURLを入力してください:</label>
         <input type="text" id="tiktok-url">
-        <button onclick="fetchTikTokData()">送信</button>
+        <button onclick="startFetchingData()">送信</button>
     </div>
 
     <div id="tiktok-info" style="display: none;">
@@ -18,8 +18,8 @@
         <p id="account-name"></p>
         <p id="video-name"></p>
         <div class="stats">
-            <span id="view-count"></span>
-            <span id="like-count"></span>
+            <span id="view-count">視聴回数: 0</span>
+            <span id="like-count">いいね数: 0</span>
         </div>
     </div>
 
