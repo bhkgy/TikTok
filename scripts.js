@@ -1,7 +1,5 @@
 async function fetchTikTokData() {
     const url = document.getElementById('tiktok-url').value;
-    
-    // 非公式のTikTok APIエンドポイントを使用してデータを取得
     const apiUrl = `https://www.tikwm.com/api/?url=${encodeURIComponent(url)}`;
 
     try {
