@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TikTok Video Info</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="dialog">
+        <label for="tiktok-url">TikTokのURLを入力してください:</label>
+        <input type="text" id="tiktok-url">
+        <button onclick="fetchTikTokData()">送信</button>
+    </div>
+
+    <div id="tiktok-info" style="display: none;">
+        <img src="TikTok.png" alt="TikTok Logo" id="tiktok-logo">
+        <p id="account-name"></p>
+        <p id="video-name"></p>
+        <div class="stats">
+            <span id="view-count"></span>
+            <span id="like-count"></span>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
